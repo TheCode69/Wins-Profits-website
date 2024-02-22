@@ -1,194 +1,192 @@
+@media only screen and (max-width: 768px){}
 body {
-    margin: 0px;
-    background-color: #0f0f0f;
+  margin: 0px;
+  background-color: #0f0f0f;
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-    background-color: #0f0f0f;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    padding: 5px 50px;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    font-size: 20px;
-    box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background-color: #0f0f0f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 5px 50px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
 }
 
 .nav ul {
-    display: flex;
-    list-style: none;
-    margin-left: auto; 
+  display: flex;
+  list-style: none;
+  margin-left: auto;
 }
 
 .nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
 }
 
 .nav ul li a:hover {
-    color: red;
+  color: red;
 }
 
 .nav p {
-    font-size: 30px;
-    margin-right: auto; 
+  font-size: 30px;
+  margin-right: auto;
 }
 .name {
-    color: red;
+  color: red;
 }
 .About {
-    margin-top: 15px;
-    padding-top: 100px;
-    background-image: url(images/2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat ;
-    background-position: center;
-    text-align: centre;
-    background-color: black;
-    
+  margin-top: 15px;
+  padding-top: 100px;
+  background-image: url(images/2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: centre;
+  background-color: black;
 }
-.text{
-    padding-top: 259px;
-    justify-content: center;
-    color: #f5c160;
-    padding-left: 15px;
-    text-align: center;
+.text {
+  padding-top: 259px;
+  justify-content: center;
+  color: #f5c160;
+  padding-left: 15px;
+  text-align: center;
 }
 .my-name {
-   
-    font-family: robota;
-    font-size: larger;
-    font-weight: 700;
+  font-family: robota;
+  font-size: larger;
+  font-weight: 700;
 }
 .text p {
-    font-size: 27px;
+  font-size: 27px;
 }
-.button{
-    background-color: rgb(16, 17, 17);
-    color: rgb(202, 91, 197);
-    font-family: algerian;
-    border-radius: 15px;
-    border-style: none;
-    padding: 10px 10px;
-    font-size: 25px;
+.button {
+  background-color: rgb(16, 17, 17);
+  color: rgb(202, 91, 197);
+  font-family: algerian;
+  border-radius: 15px;
+  border-style: none;
+  padding: 10px 10px;
+  font-size: 25px;
 }
-.button:hover{
-    background-color: #f5c160;
+.button:hover {
+  background-color: #f5c160;
 }
 .services {
-    display: flex;
-    flex-direction: row;
-   
+  display: flex;
+  flex-direction: row;
 }
 .head {
-    color: red;
-    font-family: Algerian;
-    text-align: center;
-    text-decoration:underline;
-    background-color: black;
+  color: red;
+  font-family: Algerian;
+  text-align: center;
+  text-decoration: underline;
+  background-color: black;
 }
-.services{
-    background-color: black;
+.services {
+  background-color: black;
 }
-.packages{
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: blue;
-    margin-right:10px ;
-    padding: 17px 17px;
-    margin-left: 10px;
-    background-color: rgb(163, 137, 137);
-   
+.packages {
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: blue;
+  margin-right: 10px;
+  padding: 17px 17px;
+  margin-left: 10px;
+  background-color: rgb(163, 137, 137);
 }
-.packages h2{
-    color: #f5c160;
-    font-size: 25px;
+.packages h2 {
+  color: #f5c160;
+  font-size: 25px;
 }
-.services :hover{
-    background-color: rgb(241, 165, 207);
-    margin-bottom: 0px;
+.services :hover {
+  background-color: rgb(241, 165, 207);
+  margin-bottom: 0px;
 }
 .but {
-    color: #f3ebeb;
-    background-color: black;
-    border-radius: 50px;
-    border-style: none;
-    padding: 10px;
+  color: #f3ebeb;
+  background-color: black;
+  border-radius: 50px;
+  border-style: none;
+  padding: 10px;
 }
 .message {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vhx;
-    margin-top: 0px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  height: 100vhx;
+  margin-top: 0px;
 }
 
 .what {
-    width: 50%;
-    padding: 20px;
+  width: 50%;
+  padding: 20px;
 }
 
 .what img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .container {
-    width: 40%;
-    padding: 20px;
-    color: white;
+  width: 40%;
+  padding: 20px;
+  color: white;
 }
 
 .container h2 {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .form-group input[type="email"],
 .form-group input[type="tel"],
 .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .form-group textarea {
-    height: 100px;
+  height: 100px;
 }
 
 .form-group button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .form-group button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 footer {
   background-color: #333;
@@ -204,9 +202,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5px;
-  padding-top: 10px;
-  margin-top: 0px;
 }
 
 .social-icons ul,
@@ -225,13 +220,14 @@ footer {
 .social-icons a,
 .footer-menu a {
   color: #fff;
-  font-size: 29px;
- padding: 10px 10px;
- justify-content: center;
+  font-size: 24px;
+  padding: 10px;
 }
-.social-icons :hover{
-    color: rgb(43, 228, 157);
+
+.social-icons a:hover {
+  color: rgb(43, 228, 157);
 }
+
 .footer-menu a {
   text-decoration: none;
   color: #fff;
@@ -241,12 +237,16 @@ footer {
   text-decoration: underline;
 }
 
-.footer-menu i {
-  margin-right: 5px;
+.copyrite {
+  color: rgb(184, 23, 23);
+  text-align: center;
+  font-family: Robota;
+  font-size: 17px;
 }
-.copyrite{
-    color: rgb(184, 23, 23);
-    text-align: center;
-    font-family: Robota;
-    font-size: 17px;
+
+.copyrite {
+  color: rgb(184, 23, 23);
+  text-align: center;
+  font-family: Robota;
+  font-size: 17px;
 }
