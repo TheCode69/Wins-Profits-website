@@ -1,46 +1,106 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
+.introduction {
+  background-color: #140f0f;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 7%;
+  color: white;
+  border-style: none;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.intro-title {
+  font-size: 24px;
+  color: #2980b9;
+  margin-bottom: 15px;
 }
 
-.services-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 50px auto;
-    max-width: 1000px;
+.intro-text {
+  color: #333;
+  font-size: 22px;
+  line-height: 1.5;
 }
+.introduction  h1 {
+text-align: center;
+color: red;
 
-.service-card {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 30px;
+}
+.introduction  h2 {
+text-align: center;
+color: red;
+}
+.pack {
     text-align: center;
-    width: 300px;
+    color: rgb(241, 6, 6);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px; /* Add some space below the "pack" section */
 }
 
-.service-icon {
-    margin-bottom: 20px;
+.packs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Align items vertically in the center */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
 }
 
-.service-icon img {
-    width: 100px;
-    height: 100px;
+.basic, .bots, .pro {
+    background-color: #080808;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Adjust width to fit three items in a row with some space between them */
+    margin-bottom: 20px; /* Add some space below each package */
+}
+.basic:hover,
+.bots:hover,
+.pro:hover {
+   
+    background-color: rgb(148, 144, 144);
 }
 
-.learn-more-btn {
-    background-color: #333;
+
+.basic img, .bots img, .pro img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.basic h1, .bots h1, .pro h1 {
+    color: #c6d315;
+    margin-bottom: 10px; /* Add some space below each package title */
+}
+
+.basic p, .bots p, .pro p {
+    color: hwb(0 94% 4%);
+    margin-bottom: 10px; /* Add some space below each package price */
+}
+
+.basic input[type="submit"],
+.bots input[type="submit"],
+.pro input[type="submit"] {
+    background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
     border: none;
+    padding: 10px 20px;
     border-radius: 5px;
-    margin-top: 20px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.learn-more-btn:hover {
-    background-color: #222;
+.basic input[type="submit"]:hover,
+.bots input[type="submit"]:hover,
+.pro input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.price{
+    color: #f1eded;
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-content{
+    margin-top: 100px;
+    background-color: green;
 }

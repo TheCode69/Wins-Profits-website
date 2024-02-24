@@ -7,3 +7,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const emailLink = 'mailto:dmune8965@gmail.com' + '?subject=' + encodeURIComponent('Message from ' + email) + '&body=' + encodeURIComponent('Phone Number: ' + phone + '\n\nMessage: ' + message);
     window.location.href = emailLink;
 });
+function viewTopics() {
+  alert("Topics will be displayed here!");
+  // You can add more functionality here to display topics dynamically
+}
